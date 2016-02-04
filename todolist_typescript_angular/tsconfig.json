@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "sourceMap": true
+  },
+  "filesGlob": [
+    "./**/*.ts",
+    "!./node_modules/**/*.ts"
+  ],
+  "files": [
+    "./typescripts/App.ts",
+    "./typescripts/controllers/TodoListController.ts",
+    "./typescripts/models/ITask.ts",
+    "./typescripts/services/ITaskService.ts",
+    "./typescripts/services/TaskService.ts",
+    "./typings/angularjs/angular.d.ts",
+    "./typings/jquery/jquery.d.ts",
+    "./typings/node-uuid/node-uuid-base.d.ts",
+    "./typings/node-uuid/node-uuid-cjs.d.ts",
+    "./typings/node-uuid/node-uuid.d.ts",
+    "./typings/node/node.d.ts",
+    "./typings/tsd.d.ts"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  }
+}
